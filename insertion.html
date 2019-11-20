@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0066)http://www.cs.armstrong.edu/liang/animation/web/InsertionSort.html -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+    <title>Insertion Sort Animation by Y. Daniel Liang</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <link rel="stylesheet" type="text/css" href="insertion/boxes.css">
+    <script type="text/javascript" async="" src="insertion/analytics.js"></script><script type="text/javascript" src="insertion/processing-1.4.1.js"></script>
+<!--        <script src="jqueryForJPrompt.js" type="text/javascript"></script>
+        <script src="jquery.alerts.js" type="text/javascript"></script>
+        <link href="jquery.alerts.css" rel="stylesheet" type="text/css" media="screen" />-->
+<script src="insertion/jquery-1.7.2.min.js"></script>
+<script src="insertion/jquery-ui.min.js"></script>
+<script src="insertion/jquery.ui.touch-punch.min.js"></script>
+<script src="insertion/jquery.alerts.js"></script>
+<link href="insertion/jquery.alerts.css" rel="stylesheet" type="text/css" media="screen">
+    <script language="JavaScript" type="text/javascript">
+      function step(id) {
+        var pjs = Processing.getInstanceById(id);    
+        var isSorted = pjs.step();
+        if (isSorted) {
+          jAlert("Danh sách đã được sắp xếp.\nNhất nút OK để tiếp tục." );
+        }; 
+      }
+      
+      function reset(id) {
+        var pjs = Processing.getInstanceById(id);
+        pjs.reset();
+        pjs.draw();
+      }
+    </script>
+
+<script type="text/javascript" src="insertion/logging.js"></script>
+<style type="text/css">@font-face {
+  font-family: "PjsEmptyFont";
+  src: url('data:application/x-font-ttf;base64,AAEAAAAKAIAAAwAgT1MvMgAAAAAAAAEoAAAAVmNtYXAAAAAAAAABiAAAACxnbHlmAAAAAAAAAbwAAAAkaGVhZAAAAAAAAACsAAAAOGhoZWEAAAAAAAAA5AAAACRobXR4AAAAAAAAAYAAAAAGbG9jYQAAAAAAAAG0AAAABm1heHAAAAAAAAABCAAAACBuYW1lAAAAAAAAAeAAAAAgcG9zdAAAAAAAAAIAAAAAEAABAAAAAQAAAkgTY18PPPUACwAgAAAAALSRooAAAAAAyld0xgAAAAAAAQABAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAEAAAACAAIAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACMAIwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAMAAQAAAAwABAAgAAAABAAEAAEAAABB//8AAABB////wAABAAAAAAAAAAgAEgAAAAEAAAAAAAAAAAAAAAAxAAABAAAAAAABAAEAAQAAMTcBAQAAAAAAAgAeAAMAAQQJAAEAAAAAAAMAAQQJAAIAAgAAAAAAAQAAAAAAAAAAAAAAAAAA')
+       format('truetype');
+}</style></head>
+
+
+  <body>   
+    <h3>Sắp xếp chèn</h3>
+    <div>
+        Sử dụng: Thực hiện thuật toán sắp xếp chèn trong danh sách 20 số nguyên khác nhau từ 1 đến 20.
+        Nhấn nút Step để chèn phần tử đầu tiên (bôi màu đỏ) trong phần danh sách chưa được sắp xếp vào đúng vị trí trong phần danh sách đã được sắp xếp.
+        Nhấn nút Reset để tạo một danh sách ngẫu nhiên mới.
+    </div>
+    <br><br>
+    <div align="center">
+      <canvas id="InsertionSort" data-processing-sources="InsertionSort.pde" style="border-style: solid; image-rendering: -webkit-optimize-contrast !important;" tabindex="0" width="600" height="400"></canvas></div>
+    <p></p> 
+    <div align="center">
+      <button type="button" class="button" onclick="step(&#39;InsertionSort&#39;)">Step</button>
+      <button type="button" class="button" onclick="reset(&#39;InsertionSort&#39;)">Reset</button></div>
+  
+
+<span style="position: absolute; top: 0px; left: 0px; opacity: 0; font-family: PjsEmptyFont, fantasy;">AAAAAAAA</span></body></html>

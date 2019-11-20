@@ -2,17 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4380eef-1bbf-4088-969a-1e1bbb66d04c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selection.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selection/GetElementPosition.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selection/analytics.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selection/boxes.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selection/codecolor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selection/jquery-latest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selection/js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selection/logging.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InsertionSort.pde" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insertion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insertion/analytics.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insertion/boxes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insertion/jquery-1.7.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insertion/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insertion/jquery.alerts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insertion/jquery.alerts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insertion/jquery.ui.touch-punch.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insertion/js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insertion/logging.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insertion/processing-1.4.1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bubble.html" beforeDir="false" afterPath="$PROJECT_DIR$/bubble.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574236781020</updated>
-      <workItem from="1574236783813" duration="1416000" />
+      <workItem from="1574236783813" duration="2253000" />
     </task>
     <servers />
   </component>
